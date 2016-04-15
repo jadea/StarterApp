@@ -1,0 +1,14 @@
+<div class="page-container" layout="row" layout-padding layout-align="center center" layout-wrap>
+
+
+<div flex="100">
+  <h1>I am home.</h1>
+  <p>Hello {{main.hello}}</p>
+
+</div>
+  <div ng-repeat="blog in main.blogs" class="blog" flex="50">
+    <h2>{{blog.title}}</h2>
+    <p>{{blog.body}}</p>
+  </div>
+
+</div>
